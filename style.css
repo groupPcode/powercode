@@ -1,0 +1,78 @@
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(104, 163, 218);
+    }
+
+.container {
+    max-width:auto;
+    margin: auto;
+}
+
+
+#contactForm {
+    margin-top: 20px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+.button-style {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+
+nav {
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+td:hover {
+    color: #fff;
+}
